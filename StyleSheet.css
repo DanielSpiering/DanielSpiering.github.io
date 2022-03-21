@@ -1,0 +1,123 @@
+﻿/*midnightblue or darkslateblue*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: inherit;
+    font-weight: inherit;
+    font-family: inherit;
+    text-decoration: inherit;
+    line-height: inherit;
+    color: inherit;
+}
+
+body {
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    text-shadow: 1px 1px 0px midnightblue;
+    background-color: midnightblue;
+    color: mediumspringgreen;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 0;
+    padding: 0;
+    /*height: 500px;*/
+    width: auto;
+    margin-bottom: 100px;
+    /*margin-top:130px;*/
+    /*outline: 1px solid red;*/
+    background-image: url("20211009_184029.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+img {
+    height: 400px;
+    width: 300px;
+    image-rendering: auto;
+}
+
+.background {
+    width: auto;
+    height: auto;
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+p1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+section {
+    padding: 50px;
+    width: 800px;
+    margin: 0 auto;
+    border-top: dotted magenta;
+}
+
+.sections > section:nth-child(odd) {
+    border-left: double;
+    border-left-width: 10px;
+    border-top-left-radius: 100px 100px;
+}
+
+.sections > section:nth-child(even) {
+    border-right: double;
+    border-right-width: 10px;
+    border-top-right-radius: 100px 100px;
+}
+
+a {
+    color: magenta;
+}
+
+a:hover {
+    color: mediumpurple;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    background-position-y: top;
+    position: fixed;
+    outline: 1px solid midnightblue;
+}
+
+.nav a:hover {
+    color: magenta;
+}
+
+.nav li {
+    list-style-type: none;
+    flex-grow: 1;
+    outline: 1px solid midnightblue;
+}
+
+.nav li a {
+    display: block;
+    line-height: 50px;
+    background-color: mediumspringgreen;
+    transition: background-color 0.2s;
+}
+
+.nav li a:hover {
+    background-color: darkmagenta;
+}
