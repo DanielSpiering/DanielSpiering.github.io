@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="calc.css" rel="stylesheet" type="text/css" media="all">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="calculator">
+        <input type="text" class="calculator-screen" value="0" disabled />
+
+        <div class="calculator-keys">
+            <button type="button" class="operator" value="+" onclick="InputOperator(value)">+</button>
+            <button type="button" class="operator" value="-" onclick="InputOperator(value)">-</button>
+            <button type="button" class="operator" value="*" onclick="InputOperator(value)">&times;</button>
+            <button type="button" class="operator" value="/" onclick="InputOperator(value)">&divide;</button>
+
+            <button type="button" value="7" onclick="InputDigit(value)">7</button>
+            <button type="button" value="8" onclick="InputDigit(value)">8</button>
+            <button type="button" value="9" onclick="InputDigit(value)">9</button>
+
+            <button type="button" value="4" onclick="InputDigit(value)">4</button>
+            <button type="button" value="5" onclick="InputDigit(value)">5</button>
+            <button type="button" value="6" onclick="InputDigit(value)">6</button>
+
+            <button type="button" value="1" onclick="InputDigit(value)">1</button>
+            <button type="button" value="2" onclick="InputDigit(value)">2</button>
+            <button type="button" value="3" onclick="InputDigit(value)">3</button>
+
+            <button type="button" value="0" onclick="InputDigit(value)">0</button>
+            <button type="button" value="." onclick="InputDigit(value)">.</button>
+            <button type="button" class="all-clear" value="all-clear" onclick="ResetCalculator()">AC</button>
+
+            <button type="button" class="equal-sign" value="=" onclick="ProcessInput()">=</button>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="calc.js"></script>
+</body>
+
+</html>

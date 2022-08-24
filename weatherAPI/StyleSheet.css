@@ -1,0 +1,55 @@
+﻿* {
+    /*outline: 1px solid red;*/
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+}
+body {
+    text-align: center;
+    font-size: 25px;
+    line-height: 30px;
+    text-shadow: 1px 1px 0px midnightblue;
+    background-color: deepskyblue;
+    color:springgreen;
+    flex-direction: column;
+    justify-content:center;
+    display:flex;
+}
+
+.picture {
+    background-image: url("angrycloud.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:auto;
+    height:248px;
+    width:auto;  
+    margin-top:30px;
+}
+img{
+    height:248px;
+    width:263px;
+    position:center;
+}
+.picture img:hover{
+    opacity:0;
+}
+.weatherBox{
+    background-color:gray;
+    margin-top:30px;
+    line-height:50px;
+    
+    
+    
+}
+button{
+    font-size:30px;
+    background-color:gold;
+    height:50px;
+   
+    margin-top:10px;
+}
+input{
+    font-size:20px; 
+  
+}

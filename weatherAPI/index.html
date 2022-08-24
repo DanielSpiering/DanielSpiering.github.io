@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="StyleSheet.css">
+    <title>Weather API Project</title>
+</head>
+<body onload="getCoordinates();">
+    <div class="picture">
+        <img src="happysun.jpg" alt="happy sun" />
+    </div>
+    <div class="weatherBox">
+        <form>
+            Latitude:
+            <input type="text" id="get-latitude" name="Latitude"/>
+            <br />
+            Longitude:
+            <input type="text" id="get-longitude" name="Longitude"/>
+        </form>
+        <div id="display-forecast">Get your weather forecast with the press of a button!</div>
+        <button id="get-forecast">Get Forecast</button>        
+    </div>
+    <script src="JavaScript.js"></script>
+</body>
+</html>

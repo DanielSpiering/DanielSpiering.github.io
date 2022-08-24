@@ -1,0 +1,23 @@
+﻿body {
+    background-image: url('images/tumblr_ce94adf5c7827a2b312b49a6c7625cb9_19c22742_1280.jpg');
+    display: flex;
+    flex-direction: column;
+}
+.main-box {
+    display: flex;
+    flex-direction: column;
+    background-color: magenta;
+    margin-top: 15%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2.5%;
+}
+.dice-sides{
+   padding-left: 40%;
+
+}
+.dice-amount{
+    padding-left: 40%;
+}
