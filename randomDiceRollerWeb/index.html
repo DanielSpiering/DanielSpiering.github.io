@@ -9,19 +9,21 @@
 <body>
     <div class="main-box">
         <div class="dice-sides">
-            <lable># of Sides for Your Dice:</lable>
+            <lable># of Sides on Your Dice:</lable>
             <input type="text" id="dice-sides" /><br />
         </div>
-        
+
         <div class="dice-amount">
             <lable>Amount of Dice to Roll:</lable>
             <input type="text" id="dice-amount" /><br /><br />
         </div>
-        
-        <button id="submit-button">Roll Dice</button>
-        <div id="dice-sum"></div>
-        <ul id="dice-output">
 
+        <button id="submit-button">Roll Dice</button>
+        
+        <div id="previous-dice-roll"></div>        
+        <div id="dice-sum"></div>
+        
+        <ul id="dice-output">
         </ul>
     </div>
     <script src="javascript.js"></script>
